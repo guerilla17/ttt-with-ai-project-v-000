@@ -61,3 +61,4 @@ class Computer < Player
     (0..8).to_a.sample
   end
 end
+end
