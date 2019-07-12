@@ -31,7 +31,7 @@ class Computer < Player
         !board.taken?(combo[1]+1)
       )
     end
-  end
+  
 
   def win(board)
     # puts "...checking for win for #{token} on #{board.cells}"
