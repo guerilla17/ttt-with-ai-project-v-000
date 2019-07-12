@@ -1,3 +1,4 @@
+module Computer
 class Player::Computer < Player
   def move(board)
     if !board.taken?('5')
