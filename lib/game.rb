@@ -15,7 +15,7 @@ class Game
 
 # A game has two Players stored in a player_1 and player_2 property.
 
-  def initialize(player_1 = Player::Human.new("X"), player_2 = Player::Human.new("O"), board = Board.new)
+  def initialize(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"), board = Board.new)
     @player_1 = player_1
     @player_2 = player_2
     @board = board 
