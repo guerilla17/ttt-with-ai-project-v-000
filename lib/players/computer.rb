@@ -6,7 +6,7 @@ class Computer < Player
     else
       best_move(board) + 1
     end
-  
+  end 
 
   def best_move(board)
     win(board) || block(board) || corner(board) || random
